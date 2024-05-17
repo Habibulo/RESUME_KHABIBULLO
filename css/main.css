@@ -1,3 +1,25 @@
+/*
+fix:
+new scroll bar added to css
+*/
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #14213d;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
 /* =================================================================== 
  *
  *  Hola v1.0 Main Stylesheet
